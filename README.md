@@ -6,3 +6,5 @@ The [BM-SC](https://www.etsi.org/deliver/etsi_ts/123200_123299/123246/14.01.00_6
 ![MBMS Broadcast Mode](https://user-images.githubusercontent.com/47313728/90973420-b213d580-e4d6-11ea-9007-61b16e6baea5.PNG)
 
 MBMS Broadcast Mode
+
+For MBMS delivery, [GCS AS](https://www.etsi.org/deliver/etsi_ts/129400_129499/129468/15.08.00_60/ts_129468v150800p.pdf) follow 
