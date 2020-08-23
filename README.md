@@ -7,4 +7,4 @@ The [BM-SC](https://www.etsi.org/deliver/etsi_ts/123200_123299/123246/14.01.00_6
 
 MBMS Broadcast Mode
 
-For MBMS delivery, [GCS AS](https://www.etsi.org/deliver/etsi_ts/129400_129499/129468/15.08.00_60/ts_129468v150800p.pdf) follow [MB2-C procedures](https://www.etsi.org/deliver/etsi_ts/129400_129499/129468/15.08.00_60/ts_129468v150800p.pdf) 
+For MBMS delivery, [GCS AS](https://www.etsi.org/deliver/etsi_ts/123400_123499/123468/12.02.00_60/ts_123468v120200p.pdf) follow [MB2-C procedures](https://www.etsi.org/deliver/etsi_ts/123400_123499/123468/12.02.00_60/ts_123468v120200p.pdf) to request the BM-SC to activate, deactivate, modify an MBMS bearer, allocate/deallocate TMGI and forwarding of data to be delivered via an MBMS bearer to the BM-SC via the MB2 reference point
