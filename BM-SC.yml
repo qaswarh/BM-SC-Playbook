@@ -5,14 +5,14 @@
 
   tasks:
     - name: register tmgi from BM-SC access log
-      shell: egrep -wo '0x\w{12}' /var/ericsson/bm-sc/mdf-cp/log/access.log|cut -c 3- | uniq
+      shell: egrep -wo '0x\w{12}' /var/vendor/bm-sc/control_plane/log/access.log|cut -c 3- | uniq
       register: result
 
     - name: iterate through result2 to get access messages with same tmgi
       shell:
         cmd: |
-          echo '                                                       ' >> bdcaccess.txt
-          echo '********************tmgi={{ item }}********************' >> bdcaccess.txt
-          echo '                                                       ' >> bdcaccess.txt
-          cat /var/ericsson/bm-sc/mdf-cp/log/access.log |grep {{ item }} >> bdcaccess.txt
+          echo '                                                       ' >> bmscaccess.txt
+          echo '********************tmgi={{ item }}********************' >> bmscaccess.txt
+          echo '                                                       ' >> bmscaccess.txt
+          cat /var/vendor/bm-sc/control_plane/log/access.log |grep {{ item }} >> bmsaccess.txt
       with_items: "{{ result.stdout_lines }}"
