@@ -4,11 +4,11 @@
   gather_facts: no
 
   tasks:
-    - name: register tmgi from BM-SC access log
+    - name: register TMGI from BM-SC access log
       shell: egrep -wo '0x\w{12}' /var/vendor/bm-sc/control_plane/log/access.log|cut -c 3- | uniq
       register: result
 
-    - name: iterate through result to get access messages with same tmgi
+    - name: iterate through TMGIs in result and segregate access messages for each TMGI
       shell:
         cmd: |
           echo '                                                       ' >> bmscaccess.txt
