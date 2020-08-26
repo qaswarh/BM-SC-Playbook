@@ -11,4 +11,4 @@ For MBMS delivery, [GCS AS](https://www.etsi.org/deliver/etsi_ts/123400_123499/1
 
 BM-SC from a vendor register live MB2-C/access Procedures daily bases. The [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) [Playbook](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html), access.yml, logon to the said BM-SC utilizing the credetials and host information from inventory. It then grep the TMGI values from [GCS-Action](https://www.etsi.org/deliver/etsi_ts/129400_129499/129468/13.00.00_60/ts_129468v130000p.pdf) (GAR/GAA) messages in the access log, trim the values to match with the TMGI values in other messages and store them in a list making sure all values are unique.
 
-The Playbook then perform another grep on TMGI values to segregate messages based on each TMGI value and stamping them with TMGI Title
+The Playbook then perform another grep on TMGI values to segregate messages based on each TMGI value, stamping them with TMGI Title and saving them in a file for analysis.
