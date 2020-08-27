@@ -15,4 +15,4 @@ The Playbook then perform another grep on TMGI values to segregate messages base
 
 Here is one sample
 
-![bmscplaybook](https://user-images.githubusercontent.com/47313728/91278535-36659300-e739-11ea-961d-dfc8abddef08.png)
+
