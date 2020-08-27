@@ -13,4 +13,6 @@ BM-SC from a vendor register live MB2-C/access Procedures daily bases. The [YAML
 
 The Playbook then perform another grep on TMGI values to segregate messages based on each TMGI value, stamping them with TMGI Title and saving them in a file for analysis.
 
+Here is one sample
+
 ![bmscplaybook](https://user-images.githubusercontent.com/47313728/91278535-36659300-e739-11ea-961d-dfc8abddef08.png)
