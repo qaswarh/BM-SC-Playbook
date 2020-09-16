@@ -1,6 +1,5 @@
 ---
-- name: bdc login
-  hosts: bmscp
+- hosts: bmscp
   gather_facts: no
 
   tasks:
