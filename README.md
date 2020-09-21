@@ -15,6 +15,6 @@ The Playbook then perform another grep on TMGI values to segregate messages base
 
 Here is one sample of messages of one TMGI
 
-
+![TMGI_messages](https://user-images.githubusercontent.com/47313728/93732298-90654700-fb85-11ea-96c5-934bfc82a113.png)
 
 
