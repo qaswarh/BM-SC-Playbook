@@ -13,6 +13,8 @@ BM-SC, from a vendor, does register live MB2-C/access Procedures daily bases. Th
 
 The Playbook then perform another grep on TMGI values to segregate messages based on each TMGI value. Each group is stamped with TMGI Title and all are save in a file for Telecom Service Engineer to analyze.
 
-Here is one sample
+Here is one sample of messages of one TMGI
+
+
 
 
